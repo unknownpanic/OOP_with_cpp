@@ -1,0 +1,6 @@
+# ninja log v6
+920	1225	7641657916214057	_2.exe	a14b88e8ae1d73a2
+29	675	1744831177570764755	build.ninja	446d5121f6f34dad
+2	338	1744272969500630131	CMakeFiles/triangle_checker.dir/ConsoleApplication/triangle.cpp.o	1c1a852372b470ef
+1	236	1744273139504504499	CMakeFiles/triangle_checker.dir/ConsoleApplication/main.cpp.o	b6ff4b374ce82826
+236	304	1744273139739537450	triangle_checker	ee9d971d1e24e44e
