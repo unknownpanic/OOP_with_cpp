@@ -1,70 +1,72 @@
 #include "Car.h"
 
-Car::Car(std::string brand, std::string model, std::string engineType, int horsepower)
+using namespace std;
+
+Car::Car(string brand, string model, string engineType, int horsepower)
     : brand(brand), model(model), engineType(engineType), horsepower(horsepower) {}
 
 void Car::DisplayInfo() {
-    std::cout << "Марка: " << brand << ", Модель: " << model
+    cout << "Марка: " << brand << ", Модель: " << model
               << ", Двигун: " << engineType << ", Потужність: "
-              << horsepower << " к.с." << std::endl;
+              << horsepower << " к.с." << endl;
 }
 
 void Car::StartEngine() {
-    std::cout << brand << " " << model << ": двигун запускається..." << std::endl;
+    cout << brand << " " << model << ": двигун запускається..." << endl;
 }
 
-Audi::Audi(std::string model, std::string engineType, int horsepower)
+Audi::Audi(string model, string engineType, int horsepower)
     : Car("Audi", model, engineType, horsepower) {}
 
 void Audi::DisplayInfo() {
-    std::cout << "Audi " << model << " з двигуном " << engineType
-              << " і потужністю " << horsepower << " к.с." << std::endl;
+    cout << "Audi " << model << " з двигуном " << engineType
+              << " і потужністю " << horsepower << " к.с." << endl;
 }
 
 void Audi::StartEngine() {
-    std::cout << "Audi " << model << ": двигун гарчить!" << std::endl;
+    cout << "Audi " << model << ": двигун гарчить!" << endl;
 }
 
-BMW::BMW(std::string model, std::string engineType, int horsepower)
+BMW::BMW(string model, string engineType, int horsepower)
     : Car("BMW", model, engineType, horsepower) {}
 
 void BMW::DisplayInfo() {
-    std::cout << "BMW " << model << " з двигуном " << engineType
-              << " і потужністю " << horsepower << " к.с." << std::endl;
+    cout << "BMW " << model << " з двигуном " << engineType
+              << " і потужністю " << horsepower << " к.с." << endl;
 }
 
 void BMW::StartEngine() {
-    std::cout << "BMW " << model << ": двигун м'яко працює!" << std::endl;
+    cout << "BMW " << model << ": двигун м'яко працює!" << endl;
 }
 
-Mercedes::Mercedes(std::string model, std::string engineType, int horsepower, std::string luxuryPackage)
+Mercedes::Mercedes(string model, string engineType, int horsepower, string luxuryPackage)
     : Car("Mercedes", model, engineType, horsepower), luxuryPackage(luxuryPackage) {}
 
 void Mercedes::DisplayInfo() {
-    std::cout << "Mercedes " << model << " з двигуном " << engineType
+    cout << "Mercedes " << model << " з двигуном " << engineType
               << ", потужністю " << horsepower << " к.с., та пакетом розкоші: "
-              << luxuryPackage << "." << std::endl;
+              << luxuryPackage << "." << endl;
 }
 
 void Mercedes::StartEngine() {
-    std::cout << "Mercedes " << model << ": двигун плавно запускається..." << std::endl;
+    cout << "Mercedes " << model << ": двигун плавно запускається..." << endl;
 }
 
-void Mercedes::SetLuxuryPackage(std::string package) {
+void Mercedes::SetLuxuryPackage(string package) {
     luxuryPackage = package;
 }
 
-Volkswagen::Volkswagen(std::string model, std::string engineType, int horsepower, bool isElectric)
+Volkswagen::Volkswagen(string model, string engineType, int horsepower, bool isElectric)
     : Car("Volkswagen", model, engineType, horsepower), isElectric(isElectric) {}
 
 void Volkswagen::DisplayInfo() {
-    std::cout << "Volkswagen " << model << " з двигуном " << engineType
+    cout << "Volkswagen " << model << " з двигуном " << engineType
               << " і потужністю " << horsepower << " к.с. "
               << (isElectric ? "Це електричний автомобіль." : "Це не електричний автомобіль.")
-              << std::endl;
+              << endl;
 }
 
 void Volkswagen::StartEngine() {
-    std::cout << "Volkswagen " << model
-              << ": двигун запускається..." << std::endl;
+    cout << "Volkswagen " << model
+              << ": двигун запускається..." << endl;
 }

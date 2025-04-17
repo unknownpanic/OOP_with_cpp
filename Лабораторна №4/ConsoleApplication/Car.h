@@ -1,48 +1,49 @@
 #include <iostream>
 #include <string>
+using namespace std;
 
 class Car {
 protected:
-    std::string brand;
-    std::string model;
-    std::string engineType;
+    string brand;
+    string model;
+    string engineType;
     int horsepower;
 
 public:
-    Car(std::string brand, std::string model, std::string engineType, int horsepower);
+    Car(string brand, string model, string engineType, int horsepower);
     virtual void DisplayInfo();
     virtual void StartEngine();
 };
 
 class Audi : public Car {
 public:
-    Audi(std::string model, std::string engineType, int horsepower);
+    Audi(string model, string engineType, int horsepower);
     void DisplayInfo() override;
     void StartEngine() override;
 };
 
 class BMW : public Car {
 public:
-    BMW(std::string model, std::string engineType, int horsepower);
+    BMW(string model, string engineType, int horsepower);
     void DisplayInfo() override;
     void StartEngine() override;
 };
 
 class Mercedes : public Car {
 private:
-    std::string luxuryPackage;
+    string luxuryPackage;
 public:
-    Mercedes(std::string model, std::string engineType, int horsepower, std::string luxuryPackage);
+    Mercedes(string model, string engineType, int horsepower, string luxuryPackage);
     void DisplayInfo() override;
     void StartEngine() override;
-    void SetLuxuryPackage(std::string package);
+    void SetLuxuryPackage(string package);
 };
 
 class Volkswagen : public Car {
 private:
     bool isElectric;
 public:
-    Volkswagen(std::string model, std::string engineType, int horsepower, bool isElectric);
+    Volkswagen(string model, string engineType, int horsepower, bool isElectric);
     void DisplayInfo() override;
     void StartEngine() override;
 };
