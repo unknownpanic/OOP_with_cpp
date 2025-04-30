@@ -1,0 +1,3 @@
+/home/maxima/Документы/Лну/ООП/Лабораторна №5/cmake-build-debug/CMakeFiles/triangle_checker.dir
+/home/maxima/Документы/Лну/ООП/Лабораторна №5/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/maxima/Документы/Лну/ООП/Лабораторна №5/cmake-build-debug/CMakeFiles/rebuild_cache.dir

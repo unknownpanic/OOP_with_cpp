@@ -1,0 +1,18 @@
+# ninja log v6
+752	883	1744876472669164413	triangle_checker	cc9764465e66706b
+4	697	1744876471921096244	CMakeFiles/triangle_checker.dir/ConsoleApplication/main.cpp.o	a7c9ce7bee7e02e6
+0	28	1746031201234170136	build.ninja	521210bdc0768dc2
+920	1225	7641657916214057	_2.exe	a14b88e8ae1d73a2
+5	752	1744876471922096335	CMakeFiles/triangle_checker.dir/ConsoleApplication/Car.cpp.o	614d973401392d8
+1	261	1746031374584117575	CMakeFiles/triangle_checker.dir/ConsoleApplication/main.cpp.o	76cfe0cbc7c91ec9
+2	238	1746031476801187607	CMakeFiles/triangle_checker.dir/ConsoleApplication/main.cpp.o	76cfe0cbc7c91ec9
+2	252	1746031476801187607	CMakeFiles/triangle_checker.dir/ConsoleApplication/Car.cpp.o	23f7f8593979cdd9
+253	301	1746031477052194266	triangle_checker	cc9764465e66706b
+1	234	1746031501857879728	CMakeFiles/triangle_checker.dir/ConsoleApplication/main.cpp.o	76cfe0cbc7c91ec9
+234	283	1746031502090886402	triangle_checker	cc9764465e66706b
+2	234	1746031568665936390	CMakeFiles/triangle_checker.dir/ConsoleApplication/main.cpp.o	76cfe0cbc7c91ec9
+2	247	1746031568665936390	CMakeFiles/triangle_checker.dir/ConsoleApplication/Car.cpp.o	23f7f8593979cdd9
+247	301	1746031568910944372	triangle_checker	cc9764465e66706b
+1	227	1746033107331244804	CMakeFiles/triangle_checker.dir/ConsoleApplication/main.cpp.o	76cfe0cbc7c91ec9
+1	243	1746033107331244804	CMakeFiles/triangle_checker.dir/ConsoleApplication/Car.cpp.o	23f7f8593979cdd9
+243	292	1746033107573239238	triangle_checker	cc9764465e66706b
