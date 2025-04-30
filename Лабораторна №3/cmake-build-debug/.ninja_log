@@ -1,9 +1,15 @@
 # ninja log v6
-1	314	1744206823416112198	CMakeFiles/triangle_checker.dir/ConsoleApplication/SolverMethods.cpp.o	4a75ea320be12c80
-920	1225	7641657916214057	_2.exe	a14b88e8ae1d73a2
-1	19	1744825753050649547	build.ninja	f61004ac9f132cb1
-1	311	1744206823416112198	CMakeFiles/triangle_checker.dir/ConsoleApplication/main.cpp.o	f190c924f2f4eeff
-1	92	1744208023489003701	triangle_checker	61a4f813730ae6f7
-2	337	1744827006769541423	CMakeFiles/triangle_checker.dir/ConsoleApplication/main.cpp.o	f190c924f2f4eeff
-2	340	1744827006769541423	CMakeFiles/triangle_checker.dir/ConsoleApplication/SolverMethods.cpp.o	4a75ea320be12c80
 340	402	1744827007107603096	triangle_checker	cc214fd37ffd5ffb
+2	337	1744827006769541423	CMakeFiles/triangle_checker.dir/ConsoleApplication/main.cpp.o	f190c924f2f4eeff
+1	19	1745436997444571420	build.ninja	f61004ac9f132cb1
+920	1225	7641657916214057	_2.exe	a14b88e8ae1d73a2
+2	340	1744827006769541423	CMakeFiles/triangle_checker.dir/ConsoleApplication/SolverMethods.cpp.o	4a75ea320be12c80
+7	47	1745436997444571420	build.ninja	330e2f408352464d
+1	318	1745436997451571384	CMakeFiles/triangle_checker.dir/ConsoleApplication/main.cpp.o	f190c924f2f4eeff
+1	322	1745436997451571384	CMakeFiles/triangle_checker.dir/ConsoleApplication/SolverMethods.cpp.o	4a75ea320be12c80
+322	375	1745436997772569730	triangle_checker	cc214fd37ffd5ffb
+4	886	1745478803857122984	CMakeFiles/triangle_checker.dir/ConsoleApplication/SolverMethods.cpp.o	4a75ea320be12c80
+886	1038	1745478804739113536	triangle_checker	cc214fd37ffd5ffb
+9	364	1746041221115267776	CMakeFiles/triangle_checker.dir/ConsoleApplication/main.cpp.o	f190c924f2f4eeff
+9	428	1746041221115267776	CMakeFiles/triangle_checker.dir/ConsoleApplication/SolverMethods.cpp.o	4a75ea320be12c80
+428	486	1746041221534271766	triangle_checker	cc214fd37ffd5ffb

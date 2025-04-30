@@ -11,6 +11,9 @@ protected:
 
 public:
     Car(string brand, string model, string engineType, int horsepower);
+
+    virtual ~Car();
+
     virtual void DisplayInfo();
     virtual void StartEngine();
 };
@@ -18,6 +21,9 @@ public:
 class Audi : public Car {
 public:
     Audi(string model, string engineType, int horsepower);
+
+    ~Audi() override;
+
     void DisplayInfo() override;
     void StartEngine() override;
 };
@@ -44,6 +50,9 @@ private:
     bool isElectric;
 public:
     Volkswagen(string model, string engineType, int horsepower, bool isElectric);
+
+    ~Volkswagen() override;
+
     void DisplayInfo() override;
     void StartEngine() override;
 };

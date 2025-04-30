@@ -1,4 +1,6 @@
 ﻿#include "SolverMethods.h"
+#include <iostream>
+#include <cmath>
 
 int main() {
     double a = 0.9, b = 2.0, epsilon = 1e-6;
@@ -10,6 +12,7 @@ int main() {
     }
 
     double initialGuess = 1.5;
+
     NewtonMethod newton(initialGuess, epsilon);
     double rootNewton = newton.solve();
     if (!std::isnan(rootNewton)) {

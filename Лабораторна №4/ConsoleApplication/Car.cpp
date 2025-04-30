@@ -5,6 +5,10 @@ using namespace std;
 Car::Car(string brand, string model, string engineType, int horsepower)
     : brand(brand), model(model), engineType(engineType), horsepower(horsepower) {}
 
+Car::~Car() {
+    std::cout << "Car " << brand << " " << model << " знищується." << std::endl;
+}
+
 void Car::DisplayInfo() {
     cout << "Марка: " << brand << ", Модель: " << model
               << ", Двигун: " << engineType << ", Потужність: "
@@ -17,6 +21,10 @@ void Car::StartEngine() {
 
 Audi::Audi(string model, string engineType, int horsepower)
     : Car("Audi", model, engineType, horsepower) {}
+
+Audi::~Audi() {
+    std::cout << "Audi " << model << " знищується." << std::endl;
+}
 
 void Audi::DisplayInfo() {
     cout << "Audi " << model << " з двигуном " << engineType
@@ -58,6 +66,10 @@ void Mercedes::SetLuxuryPackage(string package) {
 
 Volkswagen::Volkswagen(string model, string engineType, int horsepower, bool isElectric)
     : Car("Volkswagen", model, engineType, horsepower), isElectric(isElectric) {}
+
+Volkswagen::~Volkswagen() {
+    std::cout << "Volkswagen " << model << " знищується." << std::endl;
+}
 
 void Volkswagen::DisplayInfo() {
     cout << "Volkswagen " << model << " з двигуном " << engineType

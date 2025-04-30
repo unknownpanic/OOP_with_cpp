@@ -4,7 +4,6 @@
 class BisectionMethod {
 private:
     double a, b, epsilon;
-    double function(double x);
 
 public:
     BisectionMethod(double start, double end, double precision);
@@ -15,8 +14,6 @@ public:
 class NewtonMethod {
 private:
     double x0, epsilon;
-    double function(double x);
-    double derivative(double x);
 
 public:
     NewtonMethod(double initialGuess, double precision);
