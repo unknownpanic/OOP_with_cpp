@@ -1,0 +1,8 @@
+# ninja log v6
+1	248	1747252772101082194	CMakeFiles/triangle_checker.dir/ConsoleApplication/bank_facade.cpp.o	84a9dd1b2cdd90d4
+2	48	1747252778973256934	triangle_checker	cc99a6bad8a6b750
+0	27	1747252785659427052	build.ninja	25c943cd5f8e0025
+1	243	1747252562461816155	CMakeFiles/triangle_checker.dir/ConsoleApplication/car_builder.cpp.o	77463b7a2d485b41
+920	1225	7641657916214057	_2.exe	a14b88e8ae1d73a2
+1	26	1747252785659427052	build.ninja	25c943cd5f8e0025
+1	49	1747252785665427205	triangle_checker	bb91e32dba3ae731
